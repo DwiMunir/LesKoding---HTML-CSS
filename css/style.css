@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'poppins-asik';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins-asik';
+}
+a{
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+}
+
+nav {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+nav .logo-brand a{
+  font-size: 24px;
+  transition: .3s;
+}
+
+nav .logo-brand a:hover{
+  color: black;
+}
+
+nav .menu ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav .menu ul li{
+  list-style: none;
+}
+
+nav .menu ul li a{
+  transition: .3s;
+}
+
+nav .menu ul li a:hover{
+  color: white;
+}
