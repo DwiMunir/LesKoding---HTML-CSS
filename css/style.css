@@ -18,6 +18,7 @@ nav {
   background-color: pink;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 16px 32px;
 }
 
@@ -33,6 +34,7 @@ nav .logo-brand a:hover{
 nav .menu ul{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 20px;
 }
 
